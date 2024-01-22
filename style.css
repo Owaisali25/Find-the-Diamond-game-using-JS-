@@ -1,0 +1,13 @@
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 30px auto;
+}
+.parent div{
+    height: 100px;
+    width: 100px;
+    background-image: url("./images/question.png");
+    background-size: cover;
+    cursor: pointer;
+}
